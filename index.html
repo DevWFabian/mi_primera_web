@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/efe181904e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <div class="contenedor-logo">
+            <img class="logo"src="./img/LogoPrueba625x352.png" alt="LogoPrueba">
+        </div>
+        <nav class="menu-header">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <div class="links">
+
+                        <a  class="link" href="#"><i class="fa-solid fa-house fa-lg"></i><span> Home</span></a>
+                        <a  class="link" href="#seccion-principal"><i class="fa-solid fa-user fa-lg"></i><span> Acerca De Mi</span></a>
+                        <a  class="link" href="#"><i class="fa-solid fa-box fa-lg"></i><span> Portafolio</span></a>
+                        <a  class="link" href="#contact"><i class="fa-solid fa-address-card fa-lg"></i><span> Contacto</span> </a>
+                </div>
+                
+                
+                
+        </nav>
+    </header>
+    <nav class="barra-lateral">
+            <div class="links-redes-sociales">
+                <a href="" class="link-red-social"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                <a href="" class="link-red-social"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+                <a href="" class="link-red-social"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="" class="link-red-social"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </div>
+        </nav>
+    <main id="seccion-principal">
+        
+        <section class="container-acerca-de">
+            <section class="card-container-acerca-de">
+                
+                <img class="img-foto" src="./img/baner2.jpg" alt="imagen de carrusel">
+                <div  class="acerca-de">
+                    <h1 id="acerca-de-titulo">ACERCA DE MI</h1>
+                    <p id="texto-acerca-de">¡Bienvenido a mi página! Aquí, aprenderás mas sobre mi </p>
+                    <p>Me llamo Fabian Tengo 27 años me gustan los videojuegos ademas también me gusta cocinar </p>
+                </div>
+            </section>
+        </section>
+        <section class="container-servicios">
+            <section class="card-container">
+                
+                <img src="img/bar-2209813_1280.jpg" alt="bar" class="img-foto imagen-servicios">
+                
+                <div class="body-card acerca-de">
+                    <h2 class="title-card">Bar</h2>
+                    <p class="text-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit sint ipsum architecto soluta dolorem.</p>
+                </div>
+            </section>
+            <section class="card-container">
+                <img src="img/source-4280758_1280.jpg" alt="programacion" class="img-foto imagen-servicios">
+                <div class="body-card acerca-de">
+                    <h2 class="title-card">Programacion</h2>
+                    <p class="text-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit sint ipsum architecto soluta dolorem.</p>
+                </div>
+            </section>
+            <section class="card-container">
+                
+                <img src="img/weimaraner-1381186_1280.jpg" alt="" class="img-foto imagen-servicios">
+                
+                <div class="body-card acerca-de">
+                    <h2 class="title-card">Perros</h2>
+                    <p class="text-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit sint ipsum architecto soluta dolorem.</p>
+                </div>
+            </section>
+        </section>
+        <section class="container-formulario">
+            <div class="card">
+                <div class="title-card">
+                    <h1>Contactame</h1>
+                </div>
+                <div class="body-card">
+                    <form action="" method="get" class="formulario" id="form">
+                        <div class="form">
+                             <input type="text" name="nombre" id="nombre" class="input-contacto">
+                        <label for="nombre" class="identificador-input">
+                            <span class="text-label">Nombre:</span>
+                        </label></div>
+                        <div class="form">
+                        <label for="" class="identificador-input">
+                            <span class="text-label">Email:</span> <input type="email" name="email" id="email" class="input-contacto" required>
+                        </label></div>
+                        
+                        <label for="" class="identificador-input">
+                            Mensaje: <textarea   name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        </label>
+                        <input type="submit" value="Enviar" class="btn-contacto" id="submit">
+                        <p class="alertas" id="alertas"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer id="contact">
+        <span>© 2021 Todos los derechos reservados | Diseñado por: <strong>Wilson Fabian Cruz Andrade</span>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
